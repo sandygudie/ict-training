@@ -1,0 +1,203 @@
+
+body {
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+  
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* index section 1 */
+.section1{
+    // background-image: url(../images/laptop1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: headeranimated;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    padding-top: 80px;
+     div{
+        padding:40px 90px;
+        animation-name: example;
+            animation-duration: 1s;
+            animation-fill-mode: backwards;
+            animation-delay: 0.1s;
+            line-height: 1.5;
+        h1{font-size: 70px;
+            color: green;  
+        }
+        p{ 
+            color:brown;
+            font-size:20px;
+        }
+         a{ 
+            border:2px solid black;
+            border-radius:10px;
+            width:250px;
+            display:block;
+            font-size:40px;
+            color:white;
+            background-color:brown;
+            padding:10px;
+            text-decoration: none;
+            margin-top:60px;
+            text-align: center;
+            &:hover{
+                background-color: white;
+                color:brown;
+            }
+        }
+    }
+}
+
+@keyframes example{
+    0%{
+        top:0px;
+        opacity:0}
+    50%{
+        right:100px;
+        opacity:1}
+100%{
+    top:200px;
+    opacity:1}
+}
+
+
+// @keyframes example {
+//     from {top: 0px; }
+//     to {top: 200px;}
+// }
+
+
+ // section 2
+ .section2{
+    background-color:  rgb(235, 235, 232);
+    h1{
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+        padding: 60px 0px 0px 0px;
+    }
+ }
+ .service-container{
+     
+     display:flex;
+     flex-wrap:wrap;
+     justify-content: space-around;
+     text-align:center;
+        // padding:10rem 0;  
+//     max-width: 100vw;
+//     margin-top: 2rem auto;
+//     margin-bottom: -3rem;
+ padding:30px 0px;
+ 
+.service{
+          width:500px; 
+         margin:50px 0px  ;
+         box-shadow: brown;
+         background-color: white;
+}
+ 
+.images{ 
+         width:500px;
+        height:300px;
+        // border-radius :100px
+ }
+ p{ 
+        text-align: justify;
+        color:black;
+        font-size: 16px;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    h2{
+        font-size :35px;
+        color: black;
+        font-weight: bold;
+        text-transform: capitalize;
+        text-align:left
+    }
+ 
+ .imgwords{ 
+       // font-size:20px;
+    //     font-family: Calibri, 'Trebuchet MS', sans-serif;
+    //     // padding: 100px 100px 0px 100px;
+    //     animation-name: wordAnimated;
+    //    animation-duration: 1s;
+    //    animation-fill-mode: backwards;
+    //    animation-delay: 0.5s;
+            // width:100px;
+         line-height: 2;
+        padding: 20px;
+    //         background-color:  rgb(243, 243, 237);
+    //  }
+ }
+ h3{
+     color:red;
+     font-size: 20px;
+     text-align: left;
+     
+ }
+}
+     
+// .imgcontainer{
+//     animation-name: imgAnimated;
+//     display:inline;
+//     animation-duration: 1s;
+//     animation-fill-mode: backwards;
+// }
+// @keyframes imgAnimated{
+//     0%{
+//         transform:translateX(-120px);
+//         opacity:0
+//     }
+// 100%{
+//     transform:translateX(0);
+//     opacity:1
+// }
+// }
+
+
+// @keyframes wordAnimated{
+//     0%{
+//         transform:translateX(120px);
+//         opacity:0
+//     }
+// 100%{
+//     transform:translateX(0);
+//     opacity:1
+// }
+// }
+
+// section3
+.section3{
+    background-image: url(../images/laptop5.jpeg);
+    background-position: 100% -32px;
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.8;
+    background-attachment:fixed;
+}
+
+// section 4 
+
+footer {
+    .social {
+text-align: center;
+padding-top: 30px;
+background-color:white;
+height:30px;
+font-size:18px;
+img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    border-radius: 50%;
+    }
+}
+}

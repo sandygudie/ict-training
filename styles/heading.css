@@ -1,0 +1,83 @@
+body {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}/* header  section*/
+header{
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar{
+  border: 0.5px solid rgb(190, 147, 52);
+}
+/* .imgheader {
+    /* margin-left: 40px; 
+    color: gray;
+    /* padding: 20px; 
+    background-color: white;
+  } */
+.navbar img {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+.info{
+  display:inline;
+  padding:40px;
+
+}
+  
+ul{
+    list-style-type: none; 
+    display:inline;  
+}
+
+li a{
+    text-decoration: none ;
+    color:rgb(190, 147, 52);
+    padding:15px;
+}
+
+li{
+    display:inline-flex;
+    position:relative;
+    left:35%;
+    font-size :20px; 
+    padding-right: 20px;
+}
+
+li:hover{
+    background-color: rgb(241, 231, 171);
+    border-radius:7px;
+    cursor: pointer; 
+} 
+
+.loginbar {
+  display: inline;
+  padding-left:35%
+}
+
+.navbar .loginbar a {
+  text-decoration: none;
+  color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  border-right:1px solid ;
+}
+.navbar.loginbar a:hover {
+
+  color: black;
+}
+

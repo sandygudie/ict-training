@@ -1,0 +1,147 @@
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+  
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* section 1 */
+.section1{
+    background-color: rgb(117, 113, 56);
+    padding-bottom: 60px;
+    width:100%;
+    text-align:justify;
+    margin-top: 100px;
+}
+
+h1{  padding:30px;   
+}
+
+.reg{ 
+    font-size :20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.container{
+    background-color: white;
+     margin:0 auto;
+     width:900px;    
+}
+
+.containerwords{
+   padding-right:150px;
+   padding-left:85px;
+   padding-top:30px;
+   padding-bottom:40px;
+}
+
+.intro{
+    line-height:35px;
+}
+
+.intro1{
+    font-size:20px;
+    color:rgb(190, 147, 52);  
+}
+
+.underl{
+    text-decoration: underline;
+    font-size:15px
+}
+h2{
+    color:rgb(216, 172, 69);
+    font-size:22px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.names{
+    display:flex
+}
+
+.fname{
+    border-radius: 4px;
+    height:30px;
+    width:220px;
+    border:1px solid black;
+    margin-right:10px;
+}
+.femail{
+    border-radius: 4px;
+    height: 30px;
+    width:600px;
+    border:1px solid black
+}
+.fothers{
+    border-radius: 4px;
+    height: 30px;
+    width:200px;
+    border:1px solid black;
+    margin-right:30px;
+}
+
+.faddress{
+    border-radius: 4px;
+    height:30px;
+    width:330px;
+    border:1px solid black;
+    margin-right:20px
+}
+.forigin{
+    border-radius: 4px;
+    height: 30px;
+    width:400px;
+    border:1px solid black
+}
+.describe{ 
+    font-size:14px;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.essaywords{ 
+    border-radius: 6px;
+    border:1px solid black ;
+    width:700px
+
+}
+.programs1{   
+    margin-right:30px;
+     
+}
+
+.prg{
+    border-radius: 1px;
+    height: 16px;
+    width: 20px;
+    border:2px solid rgb(199, 7, 7);
+    margin:5px
+}
+
+.submit{
+    background-color: rgb(216, 172, 69);
+    height:35px;
+    width:70px;
+    border:1px solid black ;
+    border-radius:6px;
+    font-size:17px;
+}
+.submit:hover{
+    background-color: rgb(33, 36, 21);
+    color: white
+}
+
+.section2{
+  
+    height:300px;
+    
+}
+.fab fa-facebook-square{
+    font-size:100px;
+    color:red
+   
+}
+

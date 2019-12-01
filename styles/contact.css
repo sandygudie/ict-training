@@ -1,0 +1,65 @@
+body {
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+  
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* form  */
+.form{
+    background-image: url(../images/customerservice31.jpg);
+    background-position: 100%-32px;
+    height:800px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.8;
+    margin-top: 60px;
+}
+.contact{
+  
+    padding:70px;
+    padding-top:40px
+ }
+
+ label{
+     font-size:20px;
+     color:white;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+ }
+.head1{
+    color:white;
+    font-size:20px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+.fname{
+    height:30px;
+    width:600px;
+    border:1px solid white;
+    
+}
+.femail{
+    height:30px;
+    width:600px;
+    border:1px solid white;
+}
+.subject{
+    height:30px;
+    width:600px;
+    border:1px solid white;
+}
+.send{
+    border:2px white ;
+    height:50px;
+    width:80px;
+    text-align:center;
+    font-size:20px;
+      background-color:white;
+      /*opacity:0.3;*/;
+      border-radius:10px;
+}
+
+

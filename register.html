@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles/heading.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar" >
+                <img src="images/email.png">
+                <span>info@eduust.com</span>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="register.html">Register </a></li>
+                <li> <a href ="#">About Us</a></li>
+                <li> <a href ="contact.html">Contact Us </a></li>
+            </ul>
+            <div class="loginbar">
+                    <a href="login.html">Log In</a>
+                    <a href="signup.html">Sign Up </a>
+                </div>
+        </nav>
+        
+    </header>
+    <!-- the section1 starts-->
+
+    <section>
+      <div class = "section1">
+        
+        <div class="reg">
+          <h1 > REGISTRATION FORM</h1>
+        </div>
+
+        <div class="container" >
+
+          <div class="containerwords" >
+
+            <p class="intro">
+                <span class="intro1"> Before you Start</span>
+                <br>
+                Dear Applicant,<br>
+                Before you start filling the registration form, you are kindly advised to review
+                carefully the eiligibility criteria here and be prepared with the following documents
+                in order to upload them in the form to receive a grant for the track fees:<br>
+                  1. Letter of commitment (LOC). (Template exists within the form).<br>
+
+                  2. A soft copy of the your National ID.<br>
+
+                  3. A personal face photograph.<br>
+                  
+                <span class="underl"><b>Notes :</b></span>
+                <br>
+                <span class="underl">  Registration is open only in these 17 Countries:</span>
+                <br>
+                Egypt, Nigeria, Cameroon, Madagascar, Uganda, Namibia, Togo, Algeria, Ghana, Angola, Mauritania, 
+                Chad, South Africa, Niger, Malawi and Democratic Republic of the Congo, Rwanda.
+            </p>
+            <br>
+
+            <h2> Personal Details</h2>
+            <br>
+
+            <form name ="myform" action = "#" method ="post" autocomplete="on">
+
+              <div class= "names">
+                  <div >
+                    <b>First Name * </b> <br>
+                    <input  class =" fname" type = "text" name ="firstname" size ="30"  required><br>
+                  </div>
+                  
+                  <div >
+                    <b> Middle Name </b><br>
+                    <input class =" fname" type = "text" name ="Middlename"  size ="30" required><br>
+                  </div>
+
+                  <div >
+                    <b>Last Name * </b> <br>
+                    <input  class =" fname" type = "text" name ="lasttname"  size ="30" required><br>
+                  </div>
+              </div>
+
+              <br>
+              <b>E-mail*   </b><br>
+              <input class ="femail " type = "email" name ="email" size ="50" required><br>
+              <br>
+              
+              <div class="names">
+                <div >
+                <b>Phone Number * </b><br>
+                <input class =" fothers" type ="number" name ="phonenumber" size ="30"  required><br>
+                </div>
+
+                <div >
+                <b>Date Of Birth *  </b><br>
+                <input class =" fothers" type = "date" name ="dateofbirth"   required><br>
+                <br>
+                </div>
+
+                <div >
+                  <b>Gender * </b> <br>
+                  <input list ="gender" name = "gender" style="width:100px" class =" fothers">
+                  <datalist id ="gender"> 
+                      <option value ="Male">
+                      <option value ="Female"> <br><br>
+                  </datalist><br>
+                </div> 
+              </div>
+
+              <div class="names">
+                  <div class="address">
+                    <b> Address line 1 * </b> <br>
+                    <input type = "text" name ="Address1" required class =" faddress"><br>
+                    <br>
+                  </div>
+                  <div class="address">
+                    <b> Address line 2 :</b><br>
+                    <input type = "text" name ="Address2" required class =" faddress"><br>
+                    <br>
+                  </div>
+              </div>
+
+              <b>State Of Origin * </b> <br>
+              <input list ="state" name = "state"  class =" forigin">
+              <datalist id ="state"> 
+                    <option value ="Abia">
+                    <option value ="Adamawa">
+                    <option value ="Ananbra" selected>
+                    <option value ="Akwa Ibom">
+              </datalist><br>
+              <br>
+
+              <b>Nationality * </b><br>
+              <input list ="nationality" name = "nationality"  class =" forigin">
+              <datalist id ="nationality"> 
+                    <option value ="Argentina">
+                    <option value ="Ghana">
+                    <option value ="Nigeria" selected>
+                    <option value ="Canada">
+              </datalist><br>
+              <br>
+              <br>
+              <h2> Necessary Files</h2>
+              <br>
+              <span class = "describe" ><b>Upload Your CV * </b></span> <br>
+              <input type="file" name="myfile">
+              <br>
+              <br>
+              <span><b>Upload Your Certificate * </b></span><br>
+              <input type="file" name="myfile">
+              <br>
+              <br>
+              <br>
+              <h2> General Questions</h2>
+              <br>
+                <div  >
+                  <Span class="describe"><b>Tell Us Something About You* </b></Span><br>
+                  <textarea  name = "introduction" maxlength="100" cols="70" rows="13" title = "100 Characters" class="essaywords" required></textarea><br>
+                  <i> * Not less than 100 characters</i>
+                  <br>
+                  <br>
+                </div>
+                <br>
+                <div>
+                  <span class ="describe"><b> Describe why you should be considered in this grant program? 
+                    (Intro about yourself, Objective of taking the track you apply for, 
+                    fulfillment of any technical prerequisites that the track requires if applicable) is required.* </b></span><br>
+                  <textarea  name = "introduction" maxlength="100" cols="70" rows="13" title = "100 Characters" class="essaywords" required></textarea><br>
+                  <i> * Not less than 100 characters</i>
+                  <br>
+                  <br>
+                </div>
+                <br>
+
+              <span class= "describe"><b>Why are applying for this program?<i>(pick as many options as you want)* </i></b><br>
+              </span>
+                <br>
+              <div class="names">
+                
+                <div class="programs1">
+                  <input class="prg" type="checkbox" name="prg1" values="prg1"> To build a General knowledge<br>
+                  <input class="prg" type="checkbox" name="prg2" values="prg2"> To research.<br>
+                  <input class="prg" type="checkbox" name="prg3" values="prg3"> To establish a start up.<br>
+                  <input class="prg" type="checkbox" name="prg4" values="prg4"> To get a Job.<br>
+                  <input class="prg" type="checkbox" name="prg5" values="prg5"> To work as a free lancer.<br>
+                </div>
+
+                <div class="programs1">
+                  <input class="prg" type="checkbox" name="prg6" values="prg6"> To learn about Entrepreneurships<br> 
+                  <input class="prg" type="checkbox" name="prg7" values="prg7"> To teach others<br> 
+                  <input class="prg" type="checkbox" name="prg8" values="prg8"> To advance My career<br> 
+                  <input class="prg" type="checkbox" name="prg9" values="prg9"> To build on existing projects<br>
+                </div>
+              </div>
+              <br>
+              <br>
+              <span><b> Data Confirmation </b> </span> <br>
+              <input class="prg" type="checkbox" name="confirmation" values="confirmation"> I confirm that my 
+              submitted information is complete and accurate and i take full responsibility if it's proved otherwise.
+              <br>
+              <span> <i>Applications with empty or wrong information will be rejected </i></span>
+              <br>
+              <br>
+              <br>
+              <input class="submit" type ="submit" formtarget = "_blank" value ="Submit">
+              <br>
+
+            </form> 
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+ <!--  section2 starts-->
+  <!-- <section>
+
+    <div class ="section2">
+        <p> put the sponspors and logos</p>
+        <i class="fab fa-facebook-square" style="font-size:24px"></i>
+    </div>
+
+  </section> -->
+
+</body>
+</html>

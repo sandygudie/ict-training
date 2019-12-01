@@ -1,0 +1,131 @@
+body *{
+    margin: 0;
+    padding:0;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/* sign up */
+.container{
+    width:500px;
+     height:500px; 
+    position:absolute;
+    top:15%;
+    left:30%;
+    padding: 20px 100px; 
+    background-color:rgba(0, 0, 0, 0.5)
+       
+}
+
+
+img{width:30px;
+    height:30px;
+   
+    /* position:absolute;
+    top:-50px;
+    left:200px;
+    border: 2px solid white; */
+}
+button{
+    width:300px;
+    height:50px;
+    border-radius:10px;
+    background-color: white;
+    display:inline-block;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(243, 215, 220);
+}
+
+.divsign span{
+
+    font-size:15px;
+    padding-right: 15px;
+}
+h2{
+    color:white;
+    padding:10px;
+    text-align:center;
+    }
+
+.signup-h1{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+
+
+div label{
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    padding-bottom:20px; 
+}
+
+div .username,.password{
+    background-color: white;
+    width:100%;
+    border:none;
+    outline: none;
+    border: 1px solid white;
+    /* background-color: transparent; */
+    /* color:white; */
+    margin-bottom:30px;
+    padding:15px;
+}
+
+div .signin{
+    border-radius:20px;
+    background-color: pink;
+    border:none;
+    outline: none;
+    font-size:20px;
+    font-weight:bold;
+    height: 35px;
+    width:100%;
+    letter-spacing: 1px;
+}
+
+div .signin:hover{
+    background-color: blue;
+    cursor: pointer;
+    color:white;
+}
+
+div a{ 
+    color:white
+}
+
+input[placeholder="Username"]{
+    font-size:15px;  
+}
+
+/* login  */
+.login-h1{
+    text-align: left;
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    padding-bottom:10px;
+
+}
+
+.login-container{
+    width:450px;
+     height:400px; 
+    position:absolute;
+    top:20%;
+    left:30%;
+    padding: 20px 100px; 
+    background-color:rgba(0, 0, 0, 0.5)
+}
+
+.login-form{
+    padding-top:40px;
+}
